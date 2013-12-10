@@ -1,0 +1,42 @@
+実際はどの順番でも良いのですが、見やすいように
+標準の順番を
+music
+screenx
+screenmax
+timer
+human
+item
+goal
+enemy
+block
+exit-setting
+の順に設定していきます。
+
+music
+s;* sはmidiファイル
+
+screen
+x;* ステージ開始時にどれだけずれているか
+
+screenmax
+x;* スクリーンの最大スクロール値（標準で640）
+
+timer
+x;* 時間制限、x秒過ぎるとマリクスは倒れる（標準で30秒）
+
+human
+x,y;* 開始時のx座標 * 開始時のy座標
+
+item,k;* kはアイテムの数を示す
+n,x,y;* nはアイテム番号 * xはアイテムのx座標 * yはアイテムのy座標
+
+goal,k;* kはゴールの数を示す
+x,y,s;* sは次ステージのファイル名
+
+enemy,k;* kは敵の数を示す
+n,x,y;* nは敵番号
+
+block,k;* kはブロックの数を示す
+x,y;* ゴールを参照
+
+exit-settingを最後に入れることによってステージの設定を終了すると宣言します。

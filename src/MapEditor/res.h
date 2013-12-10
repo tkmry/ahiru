@@ -1,0 +1,11 @@
+#define	IDM_NEW		1001
+#define	IDM_SAVE	1002
+#define	IDM_ABOUT	1003
+#define IDM_END		1004
+#define	IDM_STAGE	1005
+#define IDM_HUMAN	1006
+#define IDM_ENEMY	1007
+#define IDM_ITEM	1008
+#define IDM_GOAL	1009
+#define IDM_BLOCK	1010
+#define	IDM_ERASER	1011
